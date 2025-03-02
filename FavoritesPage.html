@@ -41,9 +41,44 @@
             font-size: 14px;
             color: #666;
         }
+
+        /* Navbar Styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <h1>Movie App</h1>
+        <div>
+            <a href="HomePagina.html">Home</a>
+            <a href="#">Search</a>
+            <a href="/MovieDetailsPage.html">Movie Details</a>
+            <a href="#">About</a>
+            <a href="/TopRated.html">Top Rated</a>
+            <a href="/FavoritesPage.html">Favorites</a>
+        </div>
+    </div>
+
     <h1>Mijn Favoriete Films</h1>
     <div class="film-container">
         <div class="film">
@@ -67,5 +102,6 @@
             <p>Drama, 2019</p>
         </div>
     </div>
+
 </body>
 </html>
