@@ -1,22 +1,62 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Rated Movies</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Movie App - Home</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+
+    </style>
 </head>
+
 <body>
-    <header>
-        <h1>Top Rated Movies</h1>
-    </header>
 
-    <main>
-        <section id="top-rated-list">
-            <!-- Films worden hier toegevoegd via JavaScript -->
-        </section>
-    </main>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <h1>Movie App</h1>
+        <div>
+            <a href="HomePagina.html">Home</a>
+            <a href="#">Search</a>
+            <a href="/MovieDetailsPage.html">Movie Details</a>
+            <a href="#">About</a>
+            <a href="/TopRated.html">Top Rated</a>
+            <a href="/FavoritesPage.html">Favorites</a>
+        </div>
+    </div>
 
-    <script src="script.js"></script>
+    <div>
+        <h3>Top Rated Page</h3>
+    </div>
 </body>
+
 </html>
